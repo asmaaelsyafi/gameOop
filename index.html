@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>gameoop</title>
+</head>
+
+<body>
+
+    <!-- <div id="loading">
+        <div class="h-150 d-flex justify-content-center align-items-center">
+        <span class=" loader "></span>
+    </div> -->
+
+    <header id="top" class="top">
+        <img src="./img/wraper.png" alt="background-layer" class="w-100 topImage d-block">
+        </div>
+    </header>
+    <!-- ==================================navbar==================================== -->
+    <nav class=" d-block navbar navbar-expand-lg  m-auto col-md-6 col-lg-9 ">
+        <div class="container">
+            <h1 class="navbar-brand mb-0 " href="#">
+                <img src="./img/logo-sm.png" alt="Logo" class="d-inline-block align-text-top">
+                GAME REVIEWS
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-list collapse navbar-collapse d-flex  justify-content-end gap-5" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">MMORPG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHOOTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SAILING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PERMADEATH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SUPERHERO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PIXEL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================================cards==================================== -->
+    <section id="cards" class=" cards d-block">
+        <div class="container">
+            <div class="row g-4" id="rowbody">
+            </div>
+                
+                <!-- <div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./img/thumbnail.jpg" class="card-img-top p-3" alt="photo about film">
+                                <div class=" body-card-top d-flex justify-content-between">
+                                    <a class="ms-3" href="#"> film name </a>
+                                    <button class="ms-3 me-3 btn btn-primary rounded"> free </button>
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <span class="btn rounded"> section </span>
+                                        <span class="btn  rounded"> app </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+    </section>
+
+    <!-- ==================================details section==================================== -->
+    <section class="details d-none mt-5" id="details">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between">
+                    <h3 class="text-light">Details Game </h3>
+                    <button class="icon"><i id="close" class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="col-md-4">
+                    <div class="left">
+                        <img id="gameImage" class="game-img" src="./img/thumbnail.jpg" alt="game-img" />
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="right ">
+                        <h3 id="title" class="text-light"> Title: Tarisland </h3>
+                        <div class="d-flex">
+                            <p  class="text-light para">Category:</p>
+                            <span id="Category" class="text-black ms-2 px-1 ">ffffffffffff</span>
+                        </div>
+                        <div class="d-flex">
+                            <p  class="text-light para">Platform:</p>
+                            <span id="platform" class=" ms-2 text-black px-1">vvvvvvvv</span>
+                        </div>
+                        <div class="d-flex">
+                            <p class="text-light para">Status:</p>
+                            <span class="text-black ms-2 px-1 ">live </span>
+                        </div>
+                        <p class="description text-light " id="description">
+                            If you’ve been looking for a game to scratch that open-world ARPG itch, one with perhaps a
+                            bit
+                            of Asian flair, then you’re going to want to check out miHoYo’s Genshin Impact. The
+                            developer,
+                            known previously for Honkai Impact 3rd, take players to the world of Teyvat, a vast
+                            open-world
+                            designed for extended exploration. Players not only explore dungeons, but climb mountains,
+                            trees, and buildings to discover all kinds of secrets. Of course, the main character doesn’t
+                            travel alone. Instead, players build a four-player group out of over 20 characters that can
+                            be
+                        </p>
+                        <button class="btn btn-outline-warning"> <a href="" id="showGame" >show game</a> </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="./java/jquery-3.7.1.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./java/main.js "></script>
+</body>
+
+</html>
